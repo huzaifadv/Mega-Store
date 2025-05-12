@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 // import Banner2 from '/src/assets/images/banner-2.png'
 // import Banner3 from '/src/assets/images/banner-3.png'
 const images = [
-    '/assets/images/banner-1.png',
-    '/assets/images/banner-2.png',
-    '/assets/images/banner-3.png',
+    '/assets/images/banner-1.PNG',
+    '/assets/images/banner-2.PNG',
+    '/assets/images/banner-3.PNG',
 ];
 
 const Carousel = () => {
