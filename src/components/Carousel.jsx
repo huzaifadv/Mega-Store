@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
-// import Banner1 from '/src/assets/images/banner-1.png'
-// import Banner2 from '/src/assets/images/banner-2.png'
-// import Banner3 from '/src/assets/images/banner-3.png'
-const images = [
-    '/src/assets/images/banner-1.PNG',
-    '/src/assets/images/banner-2.PNG',
-    '/src/assets/images/banner-3.PNG',
-];
+import Banner1 from '../assets/images/banner-1.png';
+import Banner2 from '../assets/images/banner-2.png';
+import Banner3 from '../assets/images/banner-3.png';
+const images = [Banner1, Banner2, Banner3];
 
 const Carousel = () => {
     const [current, setCurrent] = useState(0);
