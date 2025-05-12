@@ -1,0 +1,86 @@
+.logo {
+    height: 60px;
+    width: 70px;
+    margin-top: 10px;
+}
+
+body {
+    background-color: #101828;
+}
+
+.icon {
+    font-size: 60px;
+    margin: 0px 30px;
+    color: #2661f4;
+}
+
+.btn-hero {
+    background-color: #2661f4;
+    color: white;
+    padding: 14px 0;
+    border-radius: 7px;
+    width: 30%;
+    cursor: pointer;
+}
+
+
+
+/* ---------------Hero Swiper----------------- */
+
+.swiper {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 400px) {
+    .icon-text {
+        margin-left: 15px;
+    }
+
+    .btn-hero {
+        background-color: #2661f4;
+        color: white;
+        padding: 14px 0;
+        border-radius: 7px;
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .hero-text {
+        margin: 0 20px;
+    }
+
+    .hero-img img {
+        margin-top: -50px;
+    }
+
+     .swiper-slide img {
+        display: block;
+        width: 500px;
+    }
+    .swiper {
+        width: 350px;
+        height: 400px;
+        position: absolute;
+        left: 0%;
+        top: 20%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
